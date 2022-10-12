@@ -5,4 +5,4 @@ resource "aws_ecs_cluster" "cluster" {
     value = "enabled"
   }
   capacity_providers = ["FARGATE", ]
-}
+} 
